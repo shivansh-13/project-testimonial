@@ -1,0 +1,178 @@
+body{
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    font-size: 13px;
+    font-weight: 500;
+   
+}
+
+#mainbox {
+    
+
+    margin-top: 4cm;
+    margin-bottom: 4cm;
+    margin-left: 0.4cm;
+    margin-right: 0.4cm;
+    width: 37cm;
+    height: 25m;
+    background-color: rgb(236, 242, 248);
+    box-shadow: grey grey rgb(41, 40, 40);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap : 2em;
+    grid-row-gap : 2em;
+    -webkit-box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+    box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+
+
+}
+
+.text{
+    margin-top: 0mm;
+    margin-left: 0.5cm;
+    margin-bottom: 5mm;
+    margin-right: 0.5cm;
+    opacity: 0.7;
+   
+}
+
+#DanielClifford{
+
+    background-color: hsl(263, 55%, 52%);
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 11cm;
+    background-position-y: 0.5cm;
+    color: white;    
+    border-radius: 10px;
+    grid-column: 1/3;
+    margin-top: 3cm;
+    margin-left: 2.1cm;
+    
+
+
+}
+
+.quote{
+
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#JonathanWalters{
+
+    background-color: hsl(217, 19%, 35%);
+    color: white; 
+    border-radius: 10px;
+    grid-column: 3/4;
+    margin-top: 3cm;
+
+}
+
+#JeanetteHarmon{
+
+    border-radius: 10px;
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+    grid-column: 1/2;
+    margin-left: 2.1cm;
+    margin-bottom: 3cm;
+    -webkit-box-shadow: 14px 26px 38px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 26px 38px -28px rgba(0,0,0,0.75);
+    box-shadow: 14px 26px 38px -28px rgba(0,0,0,0.75);
+
+
+}
+
+#PatrickAbrams{
+
+    background-color:hsl(219, 29%, 14%) ;
+    color: white; 
+    border-radius: 10px;
+    grid-column: 2/4;
+    margin-bottom: 3cm;
+
+}
+
+.intropatrick{
+    opacity: 0.5;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 0em;
+    font-size: 19px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self:center;
+    align-self:top;
+    
+}
+
+#KiraWhittle{
+
+    border-radius: 10px;
+    background-color: white;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    margin-top: 3cm;
+    margin-right: 2.1cm;
+    margin-bottom: 3cm;
+    color: hsl(217, 19%, 35%);
+    -webkit-box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+    box-shadow: 26px 22px 38px -28px rgba(0,0,0,0.75);
+   
+}
+
+img{
+    margin-top: 5mm;
+    margin-right: 0mm;
+    border-radius: 100px;
+    margin-left: 0.5cm;
+    display:inline-block;
+    border:hsl(264, 39%, 58%);
+    border-style: solid;
+    border-width: 3px;
+    font-size: 30px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    
+    
+
+}
+h2{
+    display: inline-block;
+    margin: 0;
+    grid-column: 2/3;
+    justify-self:center;
+    align-self:center;
+
+    
+}
+
+.image{
+
+    display: grid;
+    grid-template-columns: 62px 210px;
+    grid-template-rows: 50% 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
